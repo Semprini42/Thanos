@@ -1,1 +1,1 @@
-worker: python "Info Board.py"
+worker: python "Perfectly Balanced.py"

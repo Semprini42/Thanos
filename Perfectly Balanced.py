@@ -2,7 +2,7 @@ import discord, time, json
 from discord.ext import commands
 from datetime import datetime
 from random import seed, choice
-#
+
 with open('config.json') as f:
     config = json.load(f)
 

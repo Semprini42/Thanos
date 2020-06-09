@@ -25,7 +25,7 @@ async def connect(ctx):
     global vc, channel
     vc = ctx.author.voice.channel
     channel = await vc.connect()
-
+#
 #disconnects the bot from vc from vc
 @bot.command(name="vanish")
 async def leave(ctx):

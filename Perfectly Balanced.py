@@ -27,7 +27,7 @@ async def connect(ctx):
     channel = await vc.connect()
 
 #disconnects the bot from vc from vc
-@bot.command(name="leave")
+@bot.command(name="vanish")
 async def leave(ctx):
     await channel.disconnect()
 
